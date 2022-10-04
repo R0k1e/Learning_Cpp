@@ -14,7 +14,7 @@ int main(void)      //空括号等于void
     char a;
 
     string str1 = "3333"; //和char一样初始化
-    string str[5]; 
+    string str[5]; //string数组 
     string str2{"345"};   //用大括号初始化，等号可加可不加
     //大括号里没有内容初始化为0
     str1 = "World "; //可以跟变量一样处理
