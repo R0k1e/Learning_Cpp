@@ -1,4 +1,4 @@
-#include <cctype>
+#include <cctype>   // isalpha header file
 #include <iostream>
 int main (void)
 {

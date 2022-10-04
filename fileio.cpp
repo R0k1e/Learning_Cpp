@@ -14,4 +14,10 @@ int main(void)
 
     ifstream inFile;
     inFile.open("test.txt");
+
+    inFile.eof();
+    inFile.fail(); // check whether the data is input successfully
+    inFile.good(); // return ture if no error happen
+
+
 }
