@@ -6,7 +6,7 @@ int main(void)
     using namespace std;
     int ai[5] = {1, 2, 3, 4, 5};
     for (int x : ai)
-        cout << x << endl;
+	cout << x << endl;
 
     array<int, 5> a1 = {1, 2, 3, 4, 5};
     for (int x : a1)

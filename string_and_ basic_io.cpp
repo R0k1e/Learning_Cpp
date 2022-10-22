@@ -11,6 +11,10 @@ int main(void)      //空括号等于void
     using std::cin; //只用一个cin
 
     auto test1 = 1; // auto类型可以自己判断应该用什么数据类型
+    //auto 不能自动识别多个值初始化
+    //可以第一个变量多值初始化后第二个变量auto 
+    int K[]={1,2,3,4};
+    auto l = K;
     char a;
 
     string str1 = "3333"; //和char一样初始化
@@ -44,7 +48,7 @@ int main(void)      //空括号等于void
     // 用get需要加一个get(ch)读空行
 
     cout << str3 << "\n";
-    cout << str1 << endl; // endl和\n都可以换行
+    cout << str1 << endl;           // endl和\n都可以换行
     cout << R"(str1 "\n")" << endl; //输出括号里面字符串的原样
     // endl是操作符,还有十进制dec,八进制oct,十六进制hex
 
